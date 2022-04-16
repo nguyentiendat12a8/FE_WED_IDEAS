@@ -161,6 +161,7 @@ function App() {
           {renderRoute("/admin/idea/:ideaId", "admin", IdeaDetail)}
           {renderRoute("/admin/users/:userId", "admin", UserDetail)}
           {renderRoute("/qac/home", "qac", QacHomePage, true)}
+          {renderRoute("/qac/info", "qac", ProfileForm)}
           {renderRoute("/qac/password", "qac", ChangePassword)}
           {renderRoute("/qac/idea/:ideaId", "qac", IdeaDetail)}
           <Route path="*" element={<NotFound />} />
