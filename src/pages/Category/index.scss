@@ -1,0 +1,17 @@
+.category {
+  .title {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: #444;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+  }
+  .dept-list {
+    padding: 8px;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 1rem;
+    border: 1px solid #ccc;
+  }
+}

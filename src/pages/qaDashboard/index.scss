@@ -1,0 +1,59 @@
+.qa-dashboard {
+  .title {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: #444;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+  }
+  .top-info {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap;
+    .info-card {
+      padding: 2rem 2.5rem;
+      border-radius: 1rem;
+      background-color: #f5f5f5;
+      position: relative;
+      margin: 1.5rem 0;
+      .badge {
+        position: absolute;
+        top: -1.5rem;
+        background-color: #18a0fb;
+        border-radius: 1rem;
+        padding: 1rem 2rem;
+        left: 1rem;
+        color: #fff;
+      }
+      p {
+        margin-top: 1.5rem;
+        text-align: center;
+        padding: 0 1rem;
+      }
+    }
+  }
+  .bottom-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    .info-card {
+      padding: 2rem 2.5rem;
+      border-radius: 1rem;
+      background-color: #f5f5f5;
+      position: relative;
+      margin: 1.5rem 0;
+      max-width: 100%;
+      canvas {
+        max-width: 100%;
+      }
+      p {
+        margin-top: 1.5rem;
+        text-align: center;
+        padding: 0 1rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+const key = "userTypes";
+
+const USER_GET_LIST_SUCCESS = `${key}/USER_GET_LIST_SUCCESS`;
+const USER_GET_LIST_FAILED = `${key}/USER_GET_LIST_FAILED`;
+const USER_GET_LIST = `${key}/USER_GET_LIST`;
+
+export { USER_GET_LIST_SUCCESS, USER_GET_LIST_FAILED, USER_GET_LIST };

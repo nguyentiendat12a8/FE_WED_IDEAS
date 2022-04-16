@@ -1,0 +1,48 @@
+.modal {
+  position: fixed;
+  left: calc(50% - 300px);
+  top: 10.5rem;
+  background-color: #fff;
+  z-index: 100;
+  padding: 1.6rem;
+  border: 1px solid #ff9a3c49;
+  transition: all 0.3s ease-in-out;
+  transform: translateY(-200%);
+  min-width: 600px;
+  border-radius: 5px;
+}
+.modal.show {
+  transform: translateY(0);
+}
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.modalHeader button {
+  background: none;
+  cursor: pointer;
+  border: none;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.buttonRow {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  gap: 1rem;
+}
+
+@media (max-width: 625px) {
+  .modal {
+    left: 0;
+    width: 100%;
+    min-width: auto;
+  }
+}

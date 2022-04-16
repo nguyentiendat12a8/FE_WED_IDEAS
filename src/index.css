@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #6ec2fb;
+  --secondary-color: #dfe1f3;
+  --yellow-color: #fff500;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  border: 1px solid #18a0fb;
+  padding: 0.6rem 2rem;
+  border-radius: 6px;
+  background-color: #18a0fb;
+  color: #fff;
+  cursor: pointer;
+}
+.btn.btn-outlined {
+  color: #18a0fb;
+  background-color: transparent;
+}
+.btn.btn-sm {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.9rem;
+}
+.btn.btn-secondary {
+  background-color: #433d3d;
+  border: 1px solid #433d3d;
+}
+.btn-danger {
+  background-color: #f5365c;
+  border: 1px solid #f5365c;
+}
+.btn-outlined-red {
+  color: #f5365c;
+  background-color: transparent;
+  border-color: #f5365c;
+}
+input:focus,
+select:focus {
+  outline: none;
+}
+button:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.row .col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.card {
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}
+.divDisable {
+  opacity: 0.6;
+  pointer-events: none;
+}
+.title {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  color: #444;
+  font-weight: 400;
+  margin-bottom: 2.5rem;
+}
+.position-relative {
+  position: relative;
+}
+.fixed-sidebar {
+  position: fixed;
+  height: 100vh;
+  left: 0;
+  top: 0;
+}
+.sidebar-mock {
+  min-width: 250px;
+}
+@media (max-width: 991px) {
+  .sidebar-mock {
+    min-width: 0;
+  }
+}
+.f-14 {
+  font-size: 14px;
+}
+.mt-1 {
+  margin-top: 1rem;
+}
+.main-content-dashboard {
+  padding: 2rem;
+  background-color: #dfe1f3;
+  flex: 1;
+  align-self: baseline;
+  margin-right: 1.5rem;
+  border-radius: 5px;
+}
+@media (max-width: 500px) {
+  .main-content-dashboard {
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+  }
+}
+.d-none {
+  display: none;
+}
+.btn-active {
+  background-color: #166ba3;
+}
+.d-none {
+  display: none !important;
+}

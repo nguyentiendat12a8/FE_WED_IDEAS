@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2.5rem;
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5.5rem;
+    .links {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 2.5rem;
+      a {
+        color: #18a0fb;
+      }
+    }
+    .actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 2.5rem;
+    }
+    @media (max-width: 630px) {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

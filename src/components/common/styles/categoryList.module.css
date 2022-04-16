@@ -1,0 +1,38 @@
+.categoryList {
+  margin-top: 1.5rem;
+}
+.categoryItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem;
+  align-items: center;
+}
+.categoryItem span,
+.categoryItem strong {
+  display: block;
+  flex: 1;
+  font-size: 14px;
+}
+
+.no {
+  max-width: 60px;
+}
+.categoryItemHead {
+  background-color: #f1f4f8;
+}
+.categoryItem:nth-child(odd) {
+  background-color: #f7f8fb;
+}
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}
+.actions span {
+  max-width: 40px;
+}
+@media (max-width: 1250px) {
+  .categoryItem span,
+  .categoryItem strong {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,19 @@
+.home {
+  padding: 6rem 2rem;
+  .showcase {
+    display: flex;
+    gap: 2.5rem;
+    .img {
+      flex: 0.7;
+      img {
+        width: 100%;
+      }
+    }
+    .text {
+      line-height: 2;
+    }
+    @media (max-width: 991px) {
+      flex-direction: column;
+    }
+  }
+}

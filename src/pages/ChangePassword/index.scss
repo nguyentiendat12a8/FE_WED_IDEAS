@@ -1,0 +1,17 @@
+.change-password {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  padding: 0 1.5rem;
+  h1 {
+    margin-bottom: 2.5rem;
+  }
+  form {
+    width: 500px;
+    @media (max-width: 600px) {
+      width: 320px;
+    }
+  }
+}

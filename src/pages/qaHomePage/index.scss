@@ -1,0 +1,38 @@
+.qa-homePage {
+  .title {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: #444;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+  }
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    .stat {
+      background-color: #fff;
+      border-radius: 5px;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+    }
+  }
+  .qa-homepage__top {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
+    .filter-idea__by-properties {
+      margin-top: 0;
+      .input-container {
+        margin-bottom: 0;
+      }
+    }
+    @media (max-width: 414px) {
+      flex-direction: column;
+    }
+  }
+}

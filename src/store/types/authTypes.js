@@ -1,0 +1,7 @@
+const key = "authTypes";
+
+const AUTH_LOGIN_SUCCESS = `${key}/AUTH_LOGIN_SUCCESS`;
+const AUTH_LOGIN_FAILED = `${key}/AUTH_LOGIN_FAILED`;
+const AUTH_LOGOUT = `${key}/AUTH_LOGOUT`;
+
+export { AUTH_LOGIN_SUCCESS, AUTH_LOGIN_FAILED, AUTH_LOGOUT };

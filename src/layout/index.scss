@@ -1,0 +1,10 @@
+.qa-main,
+.staff-main,
+.admin-main {
+  display: flex;
+  gap: 1.5rem;
+  position: relative;
+  @media (max-width: 500px) {
+    gap: 0.5rem;
+  }
+}

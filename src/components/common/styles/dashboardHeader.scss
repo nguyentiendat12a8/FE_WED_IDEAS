@@ -1,0 +1,45 @@
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2.5rem;
+  .logo-container {
+    display: flex;
+    .mock-div {
+      width: 235px;
+      @media (max-width: 991px) {
+        display: none;
+      }
+    }
+    @media (max-width: 500px) {
+      img {
+        max-width: 60px;
+      }
+    }
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5.5rem;
+    .links {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 2rem;
+      .avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+    }
+  }
+  .toggler {
+    display: none;
+    @media (max-width: 991px) {
+      display: block;
+    }
+  }
+}

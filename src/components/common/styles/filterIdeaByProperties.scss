@@ -1,0 +1,9 @@
+.filter-idea__by-properties {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  select {
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,32 @@
+.userList {
+  margin-top: 1.5rem;
+}
+.userItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem;
+  align-items: center;
+}
+.userItem span,
+.userItem strong {
+  display: block;
+  flex: 1;
+  font-size: 14px;
+}
+
+.no {
+  max-width: 60px;
+}
+.userItemHead {
+  background-color: #f1f4f8;
+}
+.userItem:nth-child(odd) {
+  background-color: #f7f8fb;
+}
+
+@media (max-width: 1250px) {
+  .userItem span,
+  .userItem strong {
+    font-size: 12px;
+  }
+}
